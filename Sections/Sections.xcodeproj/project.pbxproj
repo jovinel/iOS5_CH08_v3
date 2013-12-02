@@ -15,6 +15,7 @@
 		001AD825184C3BF9001DDE8A /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AD824184C3BF9001DDE8A /* BIDAppDelegate.m */; };
 		001AD828184C3BF9001DDE8A /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001AD827184C3BF9001DDE8A /* BIDViewController.m */; };
 		001AD82B184C3BF9001DDE8A /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001AD829184C3BF9001DDE8A /* BIDViewController.xib */; };
+		001AD832184C3CE8001DDE8A /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 001AD831184C3CE8001DDE8A /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		001AD826184C3BF9001DDE8A /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		001AD827184C3BF9001DDE8A /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		001AD82A184C3BF9001DDE8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		001AD831184C3CE8001DDE8A /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		001AD81A184C3BF9001DDE8A /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				001AD831184C3CE8001DDE8A /* sortednames.plist */,
 				001AD823184C3BF9001DDE8A /* BIDAppDelegate.h */,
 				001AD824184C3BF9001DDE8A /* BIDAppDelegate.m */,
 				001AD826184C3BF9001DDE8A /* BIDViewController.h */,
@@ -150,6 +153,7 @@
 			files = (
 				001AD81F184C3BF9001DDE8A /* InfoPlist.strings in Resources */,
 				001AD82B184C3BF9001DDE8A /* BIDViewController.xib in Resources */,
+				001AD832184C3CE8001DDE8A /* sortednames.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
